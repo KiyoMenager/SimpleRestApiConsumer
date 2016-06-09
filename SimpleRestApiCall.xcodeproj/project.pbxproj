@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE0354C31D0971520048F9DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0354C21D0971520048F9DF /* AppDelegate.swift */; };
+		DE0354C51D0971520048F9DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0354C41D0971520048F9DF /* ViewController.swift */; };
+		DE0354C81D0971520048F9DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE0354C61D0971520048F9DF /* Main.storyboard */; };
+		DE0354CB1D0971520048F9DF /* SimpleRestApiCall.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE0354C91D0971520048F9DF /* SimpleRestApiCall.xcdatamodeld */; };
+		DE0354CD1D0971520048F9DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE0354CC1D0971520048F9DF /* Assets.xcassets */; };
+		DE0354D01D0971520048F9DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE0354CE1D0971520048F9DF /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DE0354BF1D0971520048F9DF /* SimpleRestApiCall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleRestApiCall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE0354C21D0971520048F9DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE0354C41D0971520048F9DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE0354C71D0971520048F9DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE0354CA1D0971520048F9DF /* SimpleRestApiCall.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimpleRestApiCall.xcdatamodel; sourceTree = "<group>"; };
+		DE0354CC1D0971520048F9DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE0354CF1D0971520048F9DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE0354D11D0971520048F9DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE0354BC1D0971520048F9DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE0354B61D0971520048F9DF = {
+			isa = PBXGroup;
+			children = (
+				DE0354C11D0971520048F9DF /* SimpleRestApiCall */,
+				DE0354C01D0971520048F9DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE0354C01D0971520048F9DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE0354BF1D0971520048F9DF /* SimpleRestApiCall.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE0354C11D0971520048F9DF /* SimpleRestApiCall */ = {
+			isa = PBXGroup;
+			children = (
+				DE0354C21D0971520048F9DF /* AppDelegate.swift */,
+				DE0354C41D0971520048F9DF /* ViewController.swift */,
+				DE0354C61D0971520048F9DF /* Main.storyboard */,
+				DE0354CC1D0971520048F9DF /* Assets.xcassets */,
+				DE0354CE1D0971520048F9DF /* LaunchScreen.storyboard */,
+				DE0354D11D0971520048F9DF /* Info.plist */,
+				DE0354C91D0971520048F9DF /* SimpleRestApiCall.xcdatamodeld */,
+			);
+			path = SimpleRestApiCall;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE0354BE1D0971520048F9DF /* SimpleRestApiCall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE0354D41D0971520048F9DF /* Build configuration list for PBXNativeTarget "SimpleRestApiCall" */;
+			buildPhases = (
+				DE0354BB1D0971520048F9DF /* Sources */,
+				DE0354BC1D0971520048F9DF /* Frameworks */,
+				DE0354BD1D0971520048F9DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleRestApiCall;
+			productName = SimpleRestApiCall;
+			productReference = DE0354BF1D0971520048F9DF /* SimpleRestApiCall.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE0354B71D0971520048F9DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = OptiCargo;
+				TargetAttributes = {
+					DE0354BE1D0971520048F9DF = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = DE0354BA1D0971520048F9DF /* Build configuration list for PBXProject "SimpleRestApiCall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE0354B61D0971520048F9DF;
+			productRefGroup = DE0354C01D0971520048F9DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE0354BE1D0971520048F9DF /* SimpleRestApiCall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE0354BD1D0971520048F9DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0354D01D0971520048F9DF /* LaunchScreen.storyboard in Resources */,
+				DE0354CD1D0971520048F9DF /* Assets.xcassets in Resources */,
+				DE0354C81D0971520048F9DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE0354BB1D0971520048F9DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0354C51D0971520048F9DF /* ViewController.swift in Sources */,
+				DE0354C31D0971520048F9DF /* AppDelegate.swift in Sources */,
+				DE0354CB1D0971520048F9DF /* SimpleRestApiCall.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DE0354C61D0971520048F9DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE0354C71D0971520048F9DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE0354CE1D0971520048F9DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE0354CF1D0971520048F9DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE0354D21D0971520048F9DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE0354D31D0971520048F9DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE0354D51D0971520048F9DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleRestApiCall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.opticargo.ios.SimpleRestApiCall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DE0354D61D0971520048F9DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleRestApiCall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.opticargo.ios.SimpleRestApiCall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE0354BA1D0971520048F9DF /* Build configuration list for PBXProject "SimpleRestApiCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE0354D21D0971520048F9DF /* Debug */,
+				DE0354D31D0971520048F9DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE0354D41D0971520048F9DF /* Build configuration list for PBXNativeTarget "SimpleRestApiCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE0354D51D0971520048F9DF /* Debug */,
+				DE0354D61D0971520048F9DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DE0354C91D0971520048F9DF /* SimpleRestApiCall.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DE0354CA1D0971520048F9DF /* SimpleRestApiCall.xcdatamodel */,
+			);
+			currentVersion = DE0354CA1D0971520048F9DF /* SimpleRestApiCall.xcdatamodel */;
+			path = SimpleRestApiCall.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DE0354B71D0971520048F9DF /* Project object */;
+}
