@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6406269928C896E6C99D62D6 /* Pods_SimpleRestApiCall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08AC1539283FC10E8625A26B /* Pods_SimpleRestApiCall.framework */; };
 		DE0354C31D0971520048F9DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0354C21D0971520048F9DF /* AppDelegate.swift */; };
 		DE0354C51D0971520048F9DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0354C41D0971520048F9DF /* ViewController.swift */; };
 		DE0354C81D0971520048F9DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE0354C61D0971520048F9DF /* Main.storyboard */; };
 		DE0354CB1D0971520048F9DF /* SimpleRestApiCall.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE0354C91D0971520048F9DF /* SimpleRestApiCall.xcdatamodeld */; };
 		DE0354CD1D0971520048F9DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE0354CC1D0971520048F9DF /* Assets.xcassets */; };
 		DE0354D01D0971520048F9DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE0354CE1D0971520048F9DF /* LaunchScreen.storyboard */; };
+		DE0354D81D0973290048F9DF /* TodoApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0354D71D0973290048F9DF /* TodoApi.swift */; };
+		DE0354DA1D097E810048F9DF /* TodoApiAlamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0354D91D097E810048F9DF /* TodoApiAlamofire.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08AC1539283FC10E8625A26B /* Pods_SimpleRestApiCall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleRestApiCall.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE0354BF1D0971520048F9DF /* SimpleRestApiCall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleRestApiCall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE0354C21D0971520048F9DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE0354C41D0971520048F9DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +28,10 @@
 		DE0354CC1D0971520048F9DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE0354CF1D0971520048F9DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE0354D11D0971520048F9DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE0354D71D0973290048F9DF /* TodoApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoApi.swift; sourceTree = "<group>"; };
+		DE0354D91D097E810048F9DF /* TodoApiAlamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoApiAlamofire.swift; sourceTree = "<group>"; };
+		E7B4D651DBA8D1AEB3FF0942 /* Pods-SimpleRestApiCall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleRestApiCall.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleRestApiCall/Pods-SimpleRestApiCall.release.xcconfig"; sourceTree = "<group>"; };
+		ED1693FF6327F38B82F25BBE /* Pods-SimpleRestApiCall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleRestApiCall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleRestApiCall/Pods-SimpleRestApiCall.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6406269928C896E6C99D62D6 /* Pods_SimpleRestApiCall.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E1B22614298DA258950805A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED1693FF6327F38B82F25BBE /* Pods-SimpleRestApiCall.debug.xcconfig */,
+				E7B4D651DBA8D1AEB3FF0942 /* Pods-SimpleRestApiCall.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A768A019530AB498023F4226 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08AC1539283FC10E8625A26B /* Pods_SimpleRestApiCall.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DE0354B61D0971520048F9DF = {
 			isa = PBXGroup;
 			children = (
 				DE0354C11D0971520048F9DF /* SimpleRestApiCall */,
 				DE0354C01D0971520048F9DF /* Products */,
+				1E1B22614298DA258950805A /* Pods */,
+				A768A019530AB498023F4226 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,11 +86,13 @@
 			children = (
 				DE0354C21D0971520048F9DF /* AppDelegate.swift */,
 				DE0354C41D0971520048F9DF /* ViewController.swift */,
+				DE0354D71D0973290048F9DF /* TodoApi.swift */,
 				DE0354C61D0971520048F9DF /* Main.storyboard */,
 				DE0354CC1D0971520048F9DF /* Assets.xcassets */,
 				DE0354CE1D0971520048F9DF /* LaunchScreen.storyboard */,
 				DE0354D11D0971520048F9DF /* Info.plist */,
 				DE0354C91D0971520048F9DF /* SimpleRestApiCall.xcdatamodeld */,
+				DE0354D91D097E810048F9DF /* TodoApiAlamofire.swift */,
 			);
 			path = SimpleRestApiCall;
 			sourceTree = "<group>";
@@ -74,9 +104,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE0354D41D0971520048F9DF /* Build configuration list for PBXNativeTarget "SimpleRestApiCall" */;
 			buildPhases = (
+				116E689C5A4E8CA026A540B1 /* [CP] Check Pods Manifest.lock */,
 				DE0354BB1D0971520048F9DF /* Sources */,
 				DE0354BC1D0971520048F9DF /* Frameworks */,
 				DE0354BD1D0971520048F9DF /* Resources */,
+				0A4D86C0AAE9714862FD0F12 /* [CP] Embed Pods Frameworks */,
+				21E03A1985152DC646344D32 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -133,13 +166,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A4D86C0AAE9714862FD0F12 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleRestApiCall/Pods-SimpleRestApiCall-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		116E689C5A4E8CA026A540B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		21E03A1985152DC646344D32 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleRestApiCall/Pods-SimpleRestApiCall-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DE0354BB1D0971520048F9DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE0354D81D0973290048F9DF /* TodoApi.swift in Sources */,
 				DE0354C51D0971520048F9DF /* ViewController.swift in Sources */,
 				DE0354C31D0971520048F9DF /* AppDelegate.swift in Sources */,
+				DE0354DA1D097E810048F9DF /* TodoApiAlamofire.swift in Sources */,
 				DE0354CB1D0971520048F9DF /* SimpleRestApiCall.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +336,7 @@
 		};
 		DE0354D51D0971520048F9DF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED1693FF6327F38B82F25BBE /* Pods-SimpleRestApiCall.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SimpleRestApiCall/Info.plist;
@@ -264,6 +348,7 @@
 		};
 		DE0354D61D0971520048F9DF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7B4D651DBA8D1AEB3FF0942 /* Pods-SimpleRestApiCall.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SimpleRestApiCall/Info.plist;
@@ -292,6 +377,7 @@
 				DE0354D61D0971520048F9DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
