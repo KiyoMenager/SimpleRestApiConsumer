@@ -87,12 +87,12 @@
 				DE0354C21D0971520048F9DF /* AppDelegate.swift */,
 				DE0354C41D0971520048F9DF /* ViewController.swift */,
 				DE0354D71D0973290048F9DF /* TodoApi.swift */,
+				DE0354D91D097E810048F9DF /* TodoApiAlamofire.swift */,
 				DE0354C61D0971520048F9DF /* Main.storyboard */,
 				DE0354CC1D0971520048F9DF /* Assets.xcassets */,
 				DE0354CE1D0971520048F9DF /* LaunchScreen.storyboard */,
 				DE0354D11D0971520048F9DF /* Info.plist */,
 				DE0354C91D0971520048F9DF /* SimpleRestApiCall.xcdatamodeld */,
-				DE0354D91D097E810048F9DF /* TodoApiAlamofire.swift */,
 			);
 			path = SimpleRestApiCall;
 			sourceTree = "<group>";
